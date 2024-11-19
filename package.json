@@ -1,0 +1,36 @@
+{
+  "name": "html-gmail",
+  "displayName": "Gmail用HTMLメール送信ツール",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
+  "scripts": {
+    "dev": "plasmo dev",
+    "build": "plasmo build",
+    "package": "plasmo package"
+  },
+  "dependencies": {
+    "plasmo": "0.88.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@ianvs/prettier-plugin-sort-imports": "4.1.1",
+    "@types/chrome": "0.0.258",
+    "@types/node": "20.11.5",
+    "@types/react": "18.2.48",
+    "@types/react-dom": "18.2.18",
+    "eslint": "^9.9.0",
+    "eslint-plugin-react": "^7.35.0",
+    "globals": "^15.9.0",
+    "prettier": "3.2.4",
+    "typescript": "5.3.3",
+    "typescript-eslint": "^8.2.0"
+  },
+  "manifest": {
+    "host_permissions": [
+      "https://mail.google.com/*"
+    ]
+  }
+}
