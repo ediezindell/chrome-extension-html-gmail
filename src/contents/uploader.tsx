@@ -48,6 +48,7 @@ const Uploader = () => {
       }}>
       <input
         type="file"
+        accept=".html"
         onChange={loadFile}
         style={{ display: "none" }}></input>
       insert HTML mail
