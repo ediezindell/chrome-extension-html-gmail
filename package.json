@@ -35,5 +35,8 @@
       "https://*/*"
     ]
   },
-  "packageManager": "pnpm@9.13.0"
+  "packageManager": "pnpm@9.13.0",
+  "volta": {
+    "node": "22.11.0"
+  }
 }
